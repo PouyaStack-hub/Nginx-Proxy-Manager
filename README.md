@@ -8,24 +8,25 @@ A production-ready setup for deploying **Nginx Proxy Manager** using Docker Comp
 
 ## 📋 Prerequisites
 Ensure you have Docker and Docker Compose installed:
-```bash
+
+
 docker --version
 docker compose version
 ⚡ Quick Start
 1. Clone & Navigate
 
-                                                                    bash
+                                                                  
 git clone https://github.com/YOUR_USERNAME/nginx-proxy-manager-docker.git
 cd nginx-proxy-manager-docker
 
 2. Run the Stack
 
-                                                                    bash
+                                                                   
 docker compose up -d
 
 3. Check Status
 
-                                                                    bash
+                                                                   
 docker compose ps
 
 🌐 Web Interface & Default Credentials
@@ -44,7 +45,7 @@ Password 	changeme
     Change Default Credentials: Set a strong password upon initial login.
     Firewall Restriction: Restrict port 81 to your own IP using UFW or a security group once configuration is complete:
 
-                                                                    bash
+                                                                   
   sudo ufw allow 80/tcp
   sudo ufw allow 443/tcp
   sudo ufw allow from YOUR_LOCAL_IP to any port 81 proto tcp
@@ -52,7 +53,7 @@ Password 	changeme
 
 📂 Directory Structure
 
-                                                                    text
+                                                                    
 .
 ├── docker-compose.yml
 ├── data/            # Stores SQLite database & configuration (auto-generated)
@@ -62,7 +63,7 @@ Password 	changeme
 
 This project is licensed under the MIT License.
 
-                                                                    text
+                                                                   
 
 ---
 
