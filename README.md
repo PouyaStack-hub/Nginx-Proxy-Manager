@@ -9,12 +9,6 @@ A production-ready setup for deploying **Nginx Proxy Manager** using Docker Comp
 ## 📋 Prerequisites
 Ensure you have Docker and Docker Compose installed:
 
-cd ~
-git clone https://github.com/PouyaStack-hub/Nginx-Proxy-Manager.git
-cd Nginx-Proxy-Manager
-docker compose up -d
-
-
 docker --version
 docker compose version
 
