@@ -12,6 +12,7 @@ Ensure you have Docker and Docker Compose installed:
 
 docker --version
 docker compose version
+
 ⚡ Quick Start
 1. Clone & Navigate
 
